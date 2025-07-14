@@ -1,33 +1,63 @@
-# basic peer to peer Payment App
+# Peer-to-Peer Payment App
 
-## client Installation
+This is a full-stack peer-to-peer payment application built using **React** for the frontend, **Node.js** and **Express** for the backend, and **MongoDB** for the database. It allows users to register, log in, send and receive money, and view transaction history. Authentication is secured with JWT, and password hashing is handled via bcrypt. The app also features a clean and responsive UI with modern state management and validation using Zod.
 
-Install my-project with npm
+---
 
+## Features
+
+- User Authentication (JWT-based)
+- Secure Password Storage (bcrypt)
+- Send & Receive Money
+- Transaction History
+- Responsive React Frontend
+- Express & MongoDB Backend
+- Validation with Zod
+
+---
+
+## Client Installation
+
+Install client dependencies:
+
+```bash
+cd client
+npm install
 ```
-  cd client
-  npm install
 
-```
+### Run Client Locally
 
-## Run client Locally
-
-```
+```bash
 npm run dev
-
 ```
 
+---
 
-## Installation server
+## Server Installation
 
-Install my-project with npm
+Install server dependencies:
 
+```bash
+cd server
+npm install
 ```
-  cd server
-  npm install
-```
 
-## Run server Locally
-```
+### Run Server Locally
+
+```bash
 nodemon index.js
 ```
+
+---
+
+## Environment Variables
+
+Make sure to configure a `.env` file in the server directory with:
+
+```
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+
