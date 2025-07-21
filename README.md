@@ -67,11 +67,11 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 ```
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 | Login Page | Dashboard | Transaction View |
-| ---------- | --------- | ---------------- |
-|            |           |                  |
+| :---: | :---: | :---: |
+| ![Login Page Screenshot](login.png) | ![Dashboard Screenshot](Dashboard.png) | ![Transaction View Screenshot](tH.png) |
 
 
 ## 🌐 Live Demo
