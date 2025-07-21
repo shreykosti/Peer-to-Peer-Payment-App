@@ -71,7 +71,7 @@ JWT_SECRET=your_secret_key
 
 | Login Page | Dashboard | Transaction View |
 | :---: | :---: | :---: |
-| ![Login Page Screenshot](login.png) | ![Dashboard Screenshot](Dashboard.png) | ![Transaction View Screenshot](tH.png) |
+| ![Login Page Screenshot](screenshots/login.png) | ![Dashboard Screenshot](screenshots/Dashboard.png) | ![Transaction View Screenshot](screenshots/tH.png) |
 
 
 ## 🌐 Live Demo
