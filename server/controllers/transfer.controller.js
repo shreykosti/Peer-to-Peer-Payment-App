@@ -108,11 +108,11 @@ const App = async (req, res) => {
     await TransactionHistory.findOneAndUpdate(
       { accountnumber: req.user.id },
       { $push: { transactions: senderpushData } }
-    );
+    ).session(session);
     await TransactionHistory.findOneAndUpdate(
       { accountnumber: to },
       { $push: { transactions: topushData } }
-    );
+    ).session(session);
     await Account.updateOne(
       { userNumber: req.user.id },
       { $inc: { balance: -amount } }
