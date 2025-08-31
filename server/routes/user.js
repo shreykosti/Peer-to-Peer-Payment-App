@@ -14,7 +14,7 @@ router.post("/signin", signin);
 router.post("/logout", (req, res) => {
   res.cookie("tocken", "", {
     httpOnly: true,
-    sameSite: "None",
+    sameSite: "true",
     expires: new Date(0),
     secure: true,
   });
